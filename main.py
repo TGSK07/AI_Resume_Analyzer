@@ -89,12 +89,14 @@ def main():
         st.session_state.ai_insights = ''
     
     analyzed_button = st.button("Start Analysis")
-    if analyzed_button:
+    if analyzed_button and uploaded_resume and job_description:
         with st.spinner("Analysis..."):
             st.session_state.ai_insights = insights(content,job_des)
+    
+    if st.session_state.ai_insights:
         st.subheader("AI Analysis")
         st.write(st.session_state.ai_insights)
-    
+        
         st.download_button(
             label='Download Your Analysis',
             data=st.session_state.ai_insights,
