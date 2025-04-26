@@ -19,7 +19,7 @@ It provides matching probability, missing skills, project improvement suggestion
 
 ## 🎥 Demo
 
-![Demo Video](https://github.com/user-attachments/assets/0b613a7e-b64f-4cb8-816b-8152294ff224)
+[Demo Video](https://github.com/user-attachments/assets/0b613a7e-b64f-4cb8-816b-8152294ff224)
 
 ---
 
