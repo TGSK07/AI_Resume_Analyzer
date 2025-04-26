@@ -1,9 +1,4 @@
-Sure! Here's a **simple, clean, and to-the-point** `README.md` for your AI Resume Analyzer project, just like you asked:
-
----
-
 # <img src="/assests/icon.png" alt="Icon" width="30" height="30"> AI Resume Analyzer
-
 
 **AI Resume Analyzer** is a Streamlit web app that analyzes uploaded resumes against a given job description using Google's Generative AI model.  
 It provides matching probability, missing skills, project improvement suggestions, and final recommendations.
@@ -22,10 +17,9 @@ It provides matching probability, missing skills, project improvement suggestion
 
 ---
 
-
 ## 🎥 Demo
 
-![Demo Video](https://github.com/user-attachments/assets/2bc3bef0-f199-4826-a333-1aa42eaf6890)
+![Demo Video](https://github.com/user-attachments/assets/0b613a7e-b64f-4cb8-816b-8152294ff224)
 
 ---
 
