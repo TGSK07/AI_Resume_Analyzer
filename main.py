@@ -84,13 +84,23 @@ def main():
 
     if 'job_description' in st.session_state:
         job_des = st.session_state['job_description']
+
+    if 'ai_insights' not in st.session_state:
+        st.session_state.ai_insights = ''
     
     analyzed_button = st.button("Start Analysis")
     if analyzed_button:
         with st.spinner("Analysis..."):
-            insight = insights(content,job_des)
+            st.session_state.ai_insights = insights(content,job_des)
         st.subheader("AI Analysis")
-        st.write(insight)
+        st.write(st.session_state.ai_insights)
+    
+        st.download_button(
+            label='Download Your Analysis',
+            data=st.session_state.ai_insights,
+            file_name='resume_analysis.txt',
+            mime='text/plain'
+        )
 
 
 
