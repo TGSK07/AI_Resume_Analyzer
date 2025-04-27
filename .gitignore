@@ -1,2 +1,5 @@
 # Virtual Enivornment
 .venv
+
+# System Variable
+.env
