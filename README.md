@@ -27,7 +27,6 @@ It provides matching probability, missing skills, project improvement suggestion
 - Python 3.8+
 - Streamlit
 - pdfplumber
-- python-dotenv
 - google-generativeai
 
 (Install all from `requirements.txt`.)
