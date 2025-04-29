@@ -1,12 +1,11 @@
 import streamlit as st
 import pdfplumber
 import google.generativeai as genai
-from dotenv import load_dotenv
 import os
-load_dotenv()
 
 
-API_KEY = os.getenv("GOOGLE_API_KEY")
+
+API_KEY = os.getenv("GOOGLE_API_KEY") or ''
 genai.configure(api_key=API_KEY)
 
 st.set_page_config(page_title='AI Resume Analyzer', page_icon='assests/icon.png',layout='wide')
